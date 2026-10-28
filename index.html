@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevFolio | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home">&lt;<span>dev</span>folio/&gt;</a>
+    <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav id="navigation">
+      <a href="#home">01. Home</a>
+      <a href="#about">02. About</a>
+      <a href="#skills">03. Skills</a>
+      <a href="#projects">04. Projects</a>
+      <a href="#contact" class="nav-button">Let's talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="terminal-label">● AVAILABLE FOR LEARNING & COLLABORATION</p>
+        <p class="code-label">const developer = {</p>
+        <h1>Building things for the <span>digital world.</span></h1>
+        <p class="description">
+          Hey, I'm <strong>Domiyonagigi Gigi</strong> — an MCA student
+          passionate about web development, database systems, and
+          crafting clean digital experiences.
+        </p>
+        <p class="code-label">};</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projects">View projects ↘</a>
+          <a class="btn btn-outline" href="#contact">Contact me ↗</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>01</strong><span>Problem solving</span></div>
+          <div><strong>02</strong><span>Continuous learning</span></div>
+          <div><strong>03</strong><span>Building with purpose</span></div>
+        </div>
+      </div>
+
+      <div class="editor">
+        <div class="editor-header">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <span>developer.js</span>
+        </div>
+        <div class="editor-code">
+          <p><span class="purple">class</span> <span class="yellow">Developer</span> {</p>
+          <p>&nbsp; <span class="purple">constructor</span>() {</p>
+          <p>&nbsp;&nbsp; this.name = <span class="green">"Domi"</span>;</p>
+          <p>&nbsp;&nbsp; this.curious = <span class="blue">true</span>;</p>
+          <p>&nbsp;&nbsp; this.skills = [</p>
+          <p>&nbsp;&nbsp;&nbsp; <span class="green">"HTML"</span>, <span class="green">"CSS"</span>,</p>
+          <p>&nbsp;&nbsp;&nbsp; <span class="green">"JavaScript"</span></p>
+          <p>&nbsp;&nbsp; ];</p>
+          <p>&nbsp; }</p>
+          <p>&nbsp; <span class="blue">build</span>() {</p>
+          <p>&nbsp;&nbsp; <span class="purple">return</span> <span class="green">"ideas → reality"</span>;</p>
+          <p>&nbsp; }</p>
+          <p>}</p>
+        </div>
+        <div class="editor-footer">main* <span>JavaScript</span><span>UTF-8</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section-label">01 / ABOUT.MD</p>
+      <h2>A little about <span>the developer.</span></h2>
+      <p class="section-description">
+        Hello, world! I'm an MCA student learning how thoughtful
+        interfaces, reliable code, and well-structured data come together
+        to create useful applications. I enjoy turning classroom concepts
+        into practical projects and improving my skills one step at a time.
+      </p>
+      <div class="terminal-box"><span>$ whoami</span> // Curious learner, aspiring developer, problem solver</div>
+    </section>
+
+    <section class="section alternate" id="skills">
+      <p class="section-label">02 / TECH_STACK.JSON</p>
+      <h2>My developer <span>toolkit.</span></h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">&lt;/&gt;</div>
+          <p class="card-label">01 / FRONTEND</p>
+          <h3>Web Development</h3>
+          <p>Building responsive pages and interactive interfaces.</p>
+          <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span></div>
+        </article>
+        <article class="card">
+          <div class="card-icon">▤</div>
+          <p class="card-label">02 / DATABASE</p>
+          <h3>Database Systems</h3>
+          <p>Organising, querying, and managing relational data.</p>
+          <div class="tags"><span>MySQL</span><span>SQL</span><span>RDBMS</span></div>
+        </article>
+        <article class="card">
+          <div class="card-icon">{ }</div>
+          <p class="card-label">03 / PROGRAMMING</p>
+          <h3>Programming Logic</h3>
+          <p>Practising algorithms and core programming concepts.</p>
+          <div class="tags"><span>C</span><span>C++</span><span>Java</span></div>
+        </article>
+        <article class="card">
+          <div class="card-icon">◈</div>
+          <p class="card-label">04 / DESIGN & SECURITY</p>
+          <h3>Design Fundamentals</h3>
+          <p>Exploring usability, interface design, risk, and controls.</p>
+          <div class="tags"><span>UI Design</span><span>Figma</span><span>Security</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="section-label">03 / SELECTED_WORK</p>
+      <h2>Projects I've been <span>building.</span></h2>
+      <div class="cards projects">
+        <article class="card project-card">
+          <p class="card-label">PROJECT_01 / WEB APP</p>
+          <div class="project-visual anime">AV<span>ANIMEVERSE</span></div>
+          <h3>AnimeVerse</h3>
+          <p>A story-reading application concept combining a React interface with a relational database for story information.</p>
+          <div class="tags"><span>React</span><span>MySQL</span><span>RDBMS</span></div>
+        </article>
+        <article class="card project-card">
+          <p class="card-label">PROJECT_02 / C PROGRAMMING</p>
+          <div class="project-visual scheduler"><span>[ T01 ] [ T02 ] [ T03 ]</span><b>CPU QUEUE SIMULATOR</b></div>
+          <h3>Smart Task Scheduler</h3>
+          <p>A CPU queue simulation exploring task scheduling, queue logic, and performance analytics.</p>
+          <div class="tags"><span>C</span><span>Queues</span><span>Analytics</span></div>
+        </article>
+        <article class="card project-card">
+          <p class="card-label">PROJECT_03 / UI DESIGN</p>
+          <div class="project-visual design"><span>UI / UX</span><b>Design with purpose.</b></div>
+          <h3>UI Design Principles</h3>
+          <p>A learning exercise exploring visual hierarchy, typography, consistency, and usable layouts.</p>
+          <div class="tags"><span>UI Design</span><span>Figma</span></div>
+        </article>
+      </div>
+      <p class="note">// Add repository links and live demos when available.</p>
+    </section>
+
+    <section class="section alternate" id="journey">
+      <p class="section-label">04 / CHANGELOG.MD</p>
+      <h2>My learning <span>timeline.</span></h2>
+      <div class="timeline-item">
+        <span class="timeline-number">01</span>
+        <div><p class="card-label">EDUCATION</p><h3>Master of Computer Applications</h3><p>Learning software development, databases, operating systems, and computing fundamentals.</p></div>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-number">02</span>
+        <div><p class="card-label">HANDS-ON PRACTICE</p><h3>Academic Projects</h3><p>Applying concepts with React, SQL, C programming, and responsive web interfaces.</p></div>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-number">03</span>
+        <div><p class="card-label">EXPLORING NEXT</p><h3>Information Security & Technology Risk</h3><p>Building awareness of security fundamentals, risk management, and technology controls.</p></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="section-label">05 / CONTACT.SH</p>
+      <p class="code-label">$ git commit -m "let's connect"</p>
+      <h2>Have a good idea?<br><span>Let's build it.</span></h2>
+      <p class="section-description">Open to learning opportunities, project collaborations, and conversations about technology.</p>
+      <div class="actions centered">
+        <a class="btn btn-primary" id="emailButton" href="mailto:your.email@example.com">Send an email ↗</a>
+        <button class="btn btn-outline" id="copyEmail" type="button">Copy email ⧉</button>
+      </div>
+      <p class="feedback" id="feedback">Set your email address in script.js before publishing.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#home">&lt;<span>dev</span>folio/&gt;</a>
+    <p>Built with HTML, CSS & JavaScript.</p>
+    <p>© <span id="year"></span> Domi</p>
+  </footer>
+</body>
+</html>
